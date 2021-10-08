@@ -1,0 +1,9321 @@
+/* global style */
+*,
+::before,
+::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+p {
+  font-family: Quicksand, sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.lobster-font {
+  font-family: "Lobster Two", cursive;
+  font-size: 70px;
+  color: rgb(74, 158, 255);
+}
+.container {
+  width: 1341px;
+  height: auto;
+  margin: auto;
+}
+.div-container {
+  width: 1240px;
+  height: auto;
+  margin: auto;
+}
+input {
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+/* header style  */
+header .main-menu-div {
+  width: 100%;
+  height: 65px;
+  box-shadow: black 0px 0px 4px;
+}
+header .main-menu-div .header-menu-bar {
+  width: 100%;
+  position: fixed;
+  background: rgb(246, 246, 246);
+  display: inline-flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+header .main-menu-div .header-menu-bar .logo h1 {
+  color: rgb(74, 158, 255);
+  margin: 0px 40px;
+  font-size: 40px !important;
+}
+header .main-menu-div .header-menu-bar .logo h1 span {
+  font-size: 45px;
+}
+
+header .main-menu-div .header-menu-bar .menu-bar nav {
+  width: 650px;
+  height: 40px;
+}
+header .main-menu-div .header-menu-bar .menu-bar nav .menu-close-icon {
+  width: 50px;
+  height: auto;
+  margin: 30px 30px 30px 0px;
+  float: right;
+  display: none;
+}
+
+header .main-menu-div .header-menu-bar .menu-bar nav .menu-close-icon .button {
+  width: 46px;
+
+  padding: 5px 5px 2px 5px;
+
+  border: 2px solid black;
+
+  border-radius: 100%;
+}
+
+header
+  .main-menu-div
+  .header-menu-bar
+  .menu-bar
+  nav
+  .menu-close-icon
+  .button
+  img {
+  width: 30px;
+}
+
+header .main-menu-div .header-menu-bar .menu-bar nav ul {
+  width: 100%;
+  height: 40px;
+  display: inline-flex;
+  flex-direction: row;
+  place-content: center space-between;
+  align-items: center;
+  list-style: none;
+}
+header .main-menu-div .header-menu-bar .menu-bar nav ul li {
+  width: 100px;
+  text-align: center;
+}
+header .main-menu-div .header-menu-bar .menu-bar nav ul li a {
+  padding: 10px;
+}
+header .main-menu-div .header-menu-bar .menu-bar nav ul li:nth-child(1) a {
+  color: rgb(74, 158, 255);
+}
+header .main-menu-div .header-menu-bar .menu-bar-icon {
+  display: none;
+}
+
+header .main-menu-div .header-menu-bar .menu-bar-icon .icon #button {
+  width: 50px;
+  height: 50px;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+header .main-menu-div .header-menu-bar .menu-bar-icon .icon #button img {
+  width: 30px;
+  height: 30px;
+}
+
+/* main style  */
+
+/* home section style */
+
+main #home .main-div {
+  width: 100%;
+  height: auto;
+  padding: 60px 0px;
+}
+main #home .main-div .home-container {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  place-content: center space-between;
+}
+main #home .main-div .home-container .first-coullam {
+  width: 60px;
+}
+main #home .main-div .home-container .first-coullam .socal-icon {
+  width: 60px;
+}
+main #home .main-div .home-container .first-coullam .socal-icon .facebook-icon {
+  padding: 5px;
+  border-radius: 100px;
+  margin: 35px auto;
+}
+main #home .main-div .home-container .first-coullam .socal-icon .tuttier-icon {
+  padding: 5px;
+  border-radius: 100px;
+  margin: 35px auto;
+}
+main #home .main-div .home-container .first-coullam .socal-icon .github-icon {
+  padding: 5px;
+  border-radius: 100px;
+  margin: 35px auto;
+}
+main #home .main-div .home-container .first-coullam .socal-icon .roull-icon {
+  width: 40px;
+  margin: 20px auto;
+}
+main
+  #home
+  .main-div
+  .home-container
+  .first-coullam
+  .socal-icon
+  .roull-icon
+  div {
+  width: 6px;
+  height: 200px;
+  background: rgb(74, 158, 255);
+  border-radius: 25px;
+  margin: 20px auto;
+}
+main #home .main-div .home-container .secoend-coullam {
+}
+main #home .main-div .home-container .secoend-coullam {
+  width: 550px;
+}
+main #home .main-div .home-container .secoend-coullam .intruducation {
+}
+main
+  #home
+  .main-div
+  .home-container
+  .secoend-coullam
+  .intruducation
+  h1:nth-child(1) {
+  font-size: 65px;
+}
+main
+  #home
+  .main-div
+  .home-container
+  .secoend-coullam
+  .intruducation
+  h1:nth-child(2) {
+  font-size: 70px;
+}
+main #home .main-div .home-container .secoend-coullam .intruducation h3 {
+  font-size: 40px;
+}
+main #home .main-div .home-container .secoend-coullam .intruducation .button {
+  margin: 30px 0px;
+}
+main
+  #home
+  .main-div
+  .home-container
+  .secoend-coullam
+  .intruducation
+  .button
+  button {
+  outline: none;
+  border: none;
+  font-size: 21px;
+  padding: 13px 40px;
+  border-radius: 6px;
+  background: linear-gradient(
+    0deg,
+    rgb(100, 100, 100),
+    black,
+    black,
+    rgb(100, 100, 100)
+  );
+  color: white;
+}
+main #home .main-div .home-container .third-coullam {
+}
+main #home .main-div .home-container .third-coullam .image {
+}
+main #home .main-div .home-container .third-coullam .image img {
+  width: 450px;
+  height: 500px;
+}
+
+/* about section style */
+main #about {
+}
+main #about .about-div {
+  padding: 160px 0px;
+}
+main #about .about-div .main-div {
+}
+main #about .about-div .main-div article {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+main #about .about-div .main-div article .about-heading {
+  width: 300px;
+  height: 250px;
+}
+main #about .about-div .main-div article .about-heading h1 {
+  font-size: 65px;
+  text-align: center;
+}
+main #about .about-div .main-div article .decprition {
+  width: 900px;
+  height: 250px;
+  padding: 0px 30px;
+}
+main #about .about-div .main-div article .decprition article {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+main #about .about-div .main-div article .decprition article .heading {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 0px 0px 10px;
+}
+main #about .about-div .main-div article .decprition article .heading h2 {
+  font-size: 40px;
+  font-style: italic;
+}
+main #about .about-div .main-div article .decprition article .heading small {
+  font-size: 20px;
+  font-style: italic;
+  margin: 18px 0px 0px;
+}
+main #about .about-div .main-div article .decprition article p {
+}
+
+/* skill section  style  */
+main #skills {
+}
+main #skills .skills-div {
+  width: 100%;
+  height: auto;
+  padding: 60px 0px;
+}
+main #skills .skills-div .decprition {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+}
+main #skills .skills-div .decprition article {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+main #skills .skills-div .decprition article h1 {
+  font-size: 70px;
+  height: 200px;
+  width: 300px;
+}
+main #skills .skills-div .decprition article .article {
+  width: 850px;
+}
+main #skills .skills-div .decprition article .article .heading {
+  width: 100%;
+  height: 45px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+main #skills .skills-div .decprition article .article .heading h1 {
+  font-size: 40px;
+  font-style: italic;
+  width: 105px;
+  height: 40px;
+}
+main #skills .skills-div .decprition article .article .heading small {
+  font-size: 20px;
+  font-style: italic;
+}
+main #skills .skills-div .decprition article .article p {
+}
+main #skills .skills-div .skills-graps {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+}
+main #skills .skills-div .skills-graps .skills-lavels {
+  width: 100%;
+  height: auto;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 15px;
+  display: inline-flex;
+  flex-direction: row;
+}
+main #skills .skills-div .skills-graps .skills-lavels .web-design-part {
+  width: 600px;
+  height: auto;
+  margin: auto;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .heading::after {
+  content: "";
+  width: 270px;
+  height: 4px;
+  margin: auto;
+  display: block;
+  background-color: rgb(74, 158, 255);
+  border-radius: 100px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .heading {
+  width: 306px;
+  margin: auto;
+}
+main #skills .skills-div .skills-graps .skills-lavels .web-design-part h1 {
+  font-size: 50px;
+  padding: 10px 20px;
+}
+main #skills .skills-div .skills-graps .skills-lavels .web-design-part .design {
+  width: 100%;
+  height: auto;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .html-part {
+  width: 100%;
+  height: auto;
+  padding: 15px 20px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .html-part
+  .main {
+  padding: 20px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  box-shadow: grey 0px 0px 8px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .html-part
+  .main
+  h1 {
+  padding: 0px 0px 10px;
+  font-size: 22px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .html-part
+  .main
+  div {
+  width: 100%;
+  height: 13px;
+  background: gray;
+  border-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .html-part
+  .main
+  div
+  span {
+  width: 380px;
+  height: 13px;
+  display: block;
+  background: rgb(3, 179, 255);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .css-part {
+  width: 100%;
+  height: auto;
+  padding: 15px 20px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .css-part
+  .main {
+  padding: 20px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  box-shadow: grey 0px 0px 8px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .css-part
+  .main
+  h1 {
+  padding: 0px 0px 10px;
+  font-size: 22px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .css-part
+  .main
+  div {
+  width: 100%;
+  height: 13px;
+  background: gray;
+  border-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .css-part
+  .main
+  div
+  span {
+  width: 340px;
+  height: 13px;
+  display: block;
+  background: rgb(3, 179, 255);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .bootstrap-part {
+  width: 100%;
+  height: auto;
+  padding: 15px 20px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .bootstrap-part
+  .main {
+  padding: 20px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  box-shadow: grey 0px 0px 8px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .bootstrap-part
+  .main
+  h1 {
+  padding: 0px 0px 10px;
+  font-size: 22px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .bootstrap-part
+  .main
+  div {
+  width: 100%;
+  height: 13px;
+  background: gray;
+  border-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .bootstrap-part
+  .main
+  div
+  span {
+  width: 360px;
+  height: 13px;
+  display: block;
+  background: rgb(3, 179, 255);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .tailwiendcss-part {
+  width: 100%;
+  height: auto;
+  padding: 15px 20px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .tailwiendcss-part
+  .main {
+  padding: 20px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  box-shadow: grey 0px 0px 8px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .tailwiendcss-part
+  .main
+  h1 {
+  padding: 0px 0px 10px;
+  font-size: 22px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .tailwiendcss-part
+  .main
+  div {
+  width: 100%;
+  height: 13px;
+  background: gray;
+  border-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .tailwiendcss-part
+  .main
+  div
+  span {
+  width: 240px;
+  height: 13px;
+  display: block;
+  background: rgb(3, 179, 255);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .javascript-part {
+  width: 100%;
+  height: auto;
+  padding: 15px 20px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .javascript-part
+  .main {
+  padding: 20px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  box-shadow: grey 0px 0px 8px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .javascript-part
+  .main
+  h1 {
+  padding: 0px 0px 10px;
+  font-size: 22px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .javascript-part
+  .main
+  div {
+  width: 100%;
+  height: 13px;
+  background: gray;
+  border-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .javascript-part
+  .main
+  div
+  span {
+  width: 380px;
+  height: 13px;
+  display: block;
+  background: rgb(3, 179, 255);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .react-part {
+  width: 100%;
+  height: auto;
+  padding: 15px 20px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .react-part
+  .main {
+  padding: 20px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  box-shadow: grey 0px 0px 8px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .react-part
+  .main
+  h1 {
+  padding: 0px 0px 10px;
+  font-size: 22px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .react-part
+  .main
+  div {
+  width: 100%;
+  height: 13px;
+  background: gray;
+  border-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-design-part
+  .design
+  .react-part
+  .main
+  div
+  span {
+  width: 350px;
+  height: 13px;
+  display: block;
+  background: rgb(3, 179, 255);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+main #skills .skills-div .skills-graps .skills-lavels .web-development-part {
+  width: 600px;
+  height: auto;
+  margin: 0px auto;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .heading::after {
+  content: "";
+  width: 410px;
+  height: 4px;
+  margin: auto;
+  display: block;
+  background-color: rgb(74, 158, 255);
+  border-radius: 100px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .heading {
+  width: 450px;
+  margin: auto;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .heading
+  h1 {
+  font-size: 50px;
+  padding: 10px 20px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development {
+  width: 100%;
+  height: auto;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .python-part {
+  width: 100%;
+  height: auto;
+  padding: 15px 20px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .python-part
+  .main {
+  padding: 20px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  box-shadow: grey 0px 0px 8px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .python-part
+  .main
+  h1 {
+  padding: 0px 0px 10px;
+  font-size: 22px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .python-part
+  .main
+  div {
+  width: 100%;
+  height: 13px;
+  background: gray;
+  border-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .python-part
+  .main
+  div
+  span {
+  width: 280px;
+  height: 13px;
+  display: block;
+  background: rgb(3, 179, 255);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .danjo-part {
+  width: 100%;
+  height: auto;
+  padding: 15px 20px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .danjo-part
+  .main {
+  padding: 20px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  box-shadow: grey 0px 0px 8px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .danjo-part
+  .main
+  h1 {
+  padding: 0px 0px 10px;
+  font-size: 22px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .danjo-part
+  .main
+  div {
+  width: 100%;
+  height: 13px;
+  background: gray;
+  border-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .danjo-part
+  .main
+  div
+  span {
+  width: 250px;
+  height: 13px;
+  display: block;
+  background: rgb(3, 179, 255);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .java-part {
+  width: 100%;
+  height: auto;
+  padding: 15px 20px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .java-part
+  .main {
+  padding: 20px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  box-shadow: grey 0px 0px 8px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .java-part
+  .main
+  h1 {
+  padding: 0px 0px 10px;
+  font-size: 22px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .java-part
+  .main
+  div {
+  width: 100%;
+  height: 13px;
+  background: gray;
+  border-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .java-part
+  .main
+  div
+  span {
+  width: 330px;
+  height: 13px;
+  display: block;
+  background: rgb(3, 179, 255);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .squl-part {
+  width: 100%;
+  height: auto;
+  padding: 15px 20px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .squl-part
+  .main {
+  padding: 20px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 10px;
+  box-shadow: grey 0px 0px 8px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .squl-part
+  .main
+  h1 {
+  padding: 0px 0px 10px;
+  font-size: 22px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .squl-part
+  .main
+  div {
+  width: 100%;
+  height: 13px;
+  background: gray;
+  border-radius: 10px;
+}
+main
+  #skills
+  .skills-div
+  .skills-graps
+  .skills-lavels
+  .web-development-part
+  .development
+  .squl-part
+  .main
+  div
+  span {
+  width: 240px;
+  height: 13px;
+  display: block;
+  background: rgb(3, 179, 255);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+/* work section style  */
+
+main #work .work-div {
+  width: 100%;
+  height: auto;
+  padding: 50px 0px;
+}
+main #work .work-div .decprition {
+  width: 100%;
+  height: auto;
+  padding: 30px 0px;
+}
+main #work .work-div .decprition article {
+  display: inline-flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: flex-start;
+}
+main #work .work-div .decprition article .heading {
+  width: 365px;
+}
+main #work .work-div .decprition article .heading h1 {
+  font-size: 70px;
+}
+main #work .work-div .decprition article .decpriton-div {
+  width: 870px;
+}
+main #work .work-div .decprition article .decpriton-div .heading-div {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  align-items: baseline;
+}
+main #work .work-div .decprition article .decpriton-div .heading-div h2 {
+  font-size: 40px;
+  font-style: italic;
+}
+main #work .work-div .decprition article .decpriton-div small {
+  font-size: 20px;
+  font-style: italic;
+  padding: 0px 5px;
+}
+main #work .work-div .work-menu-card {
+  width: 100%;
+  height: auto;
+  padding: 30px 0px;
+}
+main #work .work-div .work-menu-card .menu-div {
+  width: 100%;
+  height: auto;
+  padding: 15px 0px;
+  box-shadow: rgb(218, 218, 218) 0px 0px 8px;
+  border-radius: 10px;
+}
+main #work .work-div .work-menu-card .menu-div nav {
+  width: 100%;
+  height: 45px;
+}
+main #work .work-div .work-menu-card .menu-div nav ul {
+  width: 100%;
+  height: auto;
+  list-style: none;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  place-content: center;
+}
+main #work .work-div .work-menu-card .menu-div nav ul li {
+  padding: 10px 25px;
+  font-size: 21px;
+}
+main #work .work-div .work-menu-card .menu-div nav ul li:nth-child(1) a {
+  color: rgb(74, 158, 255);
+}
+main #work .work-div .work-menu-card .card-div {
+  width: 100%;
+  height: auto;
+  padding: 30px 0px;
+}
+main #work .work-div .work-menu-card .card-div #all {
+  transition: all 0.3s;
+}
+main #work .work-div .work-menu-card .card-div #all #web-design {
+  transition: all 0.3s;
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  flex-direction: row;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-one {
+  height: auto;
+  padding: 30px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-one
+  .main-div {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 20px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-one
+  .main-div
+  .heading {
+  padding: 0px 0px 20px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-one
+  .main-div
+  .heading
+  h1 {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 0px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-one
+  .main-div
+  .heading
+  .icon {
+  width: 105px;
+  height: auto;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-one
+  .main-div
+  .body {
+  padding: 10px 0px 40px;
+}
+
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-one
+  .main-div
+  .button {
+  padding: 10px 0px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-one
+  .main-div
+  .button
+  .main {
+  width: 105px;
+  height: auto;
+  padding: 10px 30px;
+  background: linear-gradient(
+    360deg,
+    rgb(90, 90, 90),
+    rgb(72, 72, 72),
+    rgb(84, 84, 84),
+    rgb(59, 59, 59)
+  );
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-one
+  .main-div
+  .button
+  .main
+  a {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-two {
+  height: auto;
+  padding: 30px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-two
+  .main-div {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 20px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-two
+  .main-div
+  .heading {
+  padding: 0px 0px 20px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-two
+  .main-div
+  .heading
+  h1 {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 0px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-two
+  .main-div
+  .heading
+  .icon {
+  width: 105px;
+  height: auto;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-two
+  .main-div
+  .body {
+  padding: 10px 0px 40px;
+}
+
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-two
+  .main-div
+  .button {
+  padding: 10px 0px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-two
+  .main-div
+  .button
+  .main {
+  width: 105px;
+  height: auto;
+  padding: 10px 30px;
+  background: linear-gradient(
+    360deg,
+    rgb(90, 90, 90),
+    rgb(72, 72, 72),
+    rgb(84, 84, 84),
+    rgb(59, 59, 59)
+  );
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-design
+  .design-template-two
+  .main-div
+  .button
+  .main
+  a {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+main #work .work-div .work-menu-card .card-div #all #web-development {
+  transition: all 0.3s;
+
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-one {
+  height: auto;
+  padding: 30px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-one
+  .main-div {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 20px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-one
+  .main-div
+  .heading {
+  padding: 0px 0px 20px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-one
+  .main-div
+  .heading
+  h1 {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 0px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-one
+  .main-div
+  .heading
+  .icon {
+  width: 105px;
+  height: auto;
+  margin: auto;
+  padding: 10px 20px;
+}
+
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-one
+  .main-div
+  .body {
+  padding: 10px 0px 40px;
+}
+
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-one
+  .main-div
+  .button {
+  padding: 10px 0px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-one
+  .main-div
+  .button
+  .main {
+  width: 105px;
+  height: auto;
+  padding: 10px 30px;
+  background: linear-gradient(
+    360deg,
+    rgb(90, 90, 90),
+    rgb(72, 72, 72),
+    rgb(84, 84, 84),
+    rgb(59, 59, 59)
+  );
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-one
+  .main-div
+  .button
+  .main
+  a {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-two {
+  height: auto;
+  padding: 30px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-two
+  .main-div {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border: 1px solid rgb(186, 186, 186);
+  border-radius: 20px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-two
+  .main-div
+  .heading {
+  padding: 0px 0px 20px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-two
+  .main-div
+  .heading
+  h1 {
+  font-size: 25px;
+  text-align: center;
+  padding: 10px 0px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-two
+  .main-div
+  .heading
+  .icon {
+  width: 105px;
+  height: auto;
+  margin: auto;
+  padding: 10px 20px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-two
+  .main-div
+  .body {
+  padding: 10px 0px 40px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-two
+  .main-div
+  .button {
+  padding: 10px 0px;
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-two
+  .main-div
+  .button
+  .main {
+  width: 105px;
+  height: auto;
+  padding: 10px 30px;
+  background: linear-gradient(
+    360deg,
+    rgb(90, 90, 90),
+    rgb(72, 72, 72),
+    rgb(84, 84, 84),
+    rgb(59, 59, 59)
+  );
+}
+main
+  #work
+  .work-div
+  .work-menu-card
+  .card-div
+  #all
+  #web-development
+  .development-template-two
+  .main-div
+  .button
+  .main
+  a {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+main #contact {
+  width: 100%;
+  height: auto;
+  background: gainsboro;
+}
+main #contact .contact-div {
+  width: 100%;
+  height: auto;
+  padding: 80px 0px;
+  display: inline-flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+/* contact section style */
+main #contact .contact-div .heading {
+  padding: 0px 0px 30px;
+  width: 349px;
+}
+main #contact .contact-div .heading h1 {
+  font-size: 70px;
+}
+main #contact .contact-div .contact-from {
+  width: 900px;
+}
+main #contact .contact-div .contact-from form .firstName {
+  display: block;
+  font-size: 20px;
+}
+main #contact .contact-div .contact-from form .lastName {
+  display: block;
+  font-size: 20px;
+}
+main #contact .contact-div .contact-from form .email {
+  display: block;
+  font-size: 20px;
+}
+main #contact .contact-div .contact-from form .massage {
+  display: block;
+  font-size: 20px;
+}
+main #contact .contact-div .contact-from form .massage textarea {
+  width: 100%;
+  height: 139px;
+  margin: 10px 0px;
+  padding: 15px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+main #contact .contact-div .contact-from form .SubmitButton {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  outline: none;
+  background: linear-gradient(
+    360deg,
+    rgb(90, 90, 90),
+    rgb(72, 72, 72),
+    rgb(84, 84, 84),
+    rgb(59, 59, 59)
+  );
+  border-radius: 10px;
+}
+
+/* footer style  */
+footer {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  text-align: center;
+  background: rgb(94, 94, 94);
+}
+footer p {
+  color: white;
+}
+
+
+/* responsive style for  laptop */
+@media screen and (max-width: 1300px) {
+  p {
+    font-family: Quicksand, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .lobster-font {
+    font-family: "Lobster Two", cursive;
+    font-size: 70px;
+    color: rgb(74, 158, 255);
+  }
+  .container {
+    width: 1341px;
+    height: auto;
+    margin: auto;
+  }
+  .div-container {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+  }
+  input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  header .main-menu-div {
+    width: 100%;
+    height: 65px;
+    box-shadow: black 0px 0px 4px;
+  }
+  header .main-menu-div .header-menu-bar {
+    width: 100%;
+    position: fixed;
+    background: rgb(246, 246, 246);
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  header .main-menu-div .header-menu-bar .logo h1 {
+    color: rgb(74, 158, 255);
+    margin: 0px 40px;
+    font-size: 40px !important;
+  }
+  header .main-menu-div .header-menu-bar .logo h1 span {
+    font-size: 45px;
+  }
+
+  header .main-menu-div .header-menu-bar .menu-bar nav {
+    width: 650px;
+    height: 40px;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav ul {
+    width: 100%;
+    height: 40px;
+    display: inline-flex;
+    flex-direction: row;
+    place-content: center space-between;
+    align-items: center;
+    list-style: none;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav ul li {
+    width: 100px;
+    text-align: center;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav ul li a {
+    padding: 10px;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav ul li:nth-child(1) a {
+    color: rgb(74, 158, 255);
+  }
+  header .main-menu-div .header-menu-bar .menu-bar-icon {
+    display: none;
+  }
+
+  header .main-menu-div .header-menu-bar .menu-bar-icon .icon #button {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 100%;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar-icon .icon #button img {
+    width: 30px;
+    height: 30px;
+  }
+
+  main #home .main-div {
+    width: 100%;
+    height: auto;
+    padding: 60px 0px;
+  }
+  main #home .main-div .home-container {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    place-content: center space-between;
+  }
+  main #home .main-div .home-container .first-coullam {
+    width: 60px;
+  }
+  main #home .main-div .home-container .first-coullam .socal-icon {
+    width: 60px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .first-coullam
+    .socal-icon
+    .facebook-icon {
+    padding: 5px;
+    border-radius: 100px;
+    margin: 20px auto;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .first-coullam
+    .socal-icon
+    .tuttier-icon {
+    padding: 5px;
+    border-radius: 100px;
+    margin: 20px auto;
+  }
+  main #home .main-div .home-container .first-coullam .socal-icon .github-icon {
+    padding: 5px;
+    border-radius: 100px;
+    margin: 20px auto;
+  }
+  main #home .main-div .home-container .first-coullam .socal-icon .roull-icon {
+    width: 40px;
+    margin: 20px auto;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .first-coullam
+    .socal-icon
+    .roull-icon
+    div {
+    width: 6px;
+    height: 150px;
+    background: rgb(74, 158, 255);
+    border-radius: 25px;
+    margin: 20px auto;
+  }
+
+  main #home .main-div .home-container .secoend-coullam {
+    width: 480px;
+  }
+
+  main
+    #home
+    .main-div
+    .home-container
+    .secoend-coullam
+    .intruducation
+    h1:nth-child(1) {
+    font-size: 65px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .secoend-coullam
+    .intruducation
+    h1:nth-child(2) {
+    font-size: 70px;
+  }
+  main #home .main-div .home-container .secoend-coullam .intruducation h3 {
+    font-size: 40px;
+  }
+  main #home .main-div .home-container .secoend-coullam .intruducation .button {
+    margin: 30px 0px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .secoend-coullam
+    .intruducation
+    .button
+    button {
+    outline: none;
+    border: none;
+    font-size: 21px;
+    padding: 13px 40px;
+    border-radius: 6px;
+    background: linear-gradient(
+      0deg,
+      rgb(100, 100, 100),
+      black,
+      black,
+      rgb(100, 100, 100)
+    );
+    color: white;
+  }
+
+  main #home .main-div .home-container .third-coullam .image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  main #about .about-div {
+    padding: 160px 0px;
+  }
+
+  main #about .about-div .main-div article {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main #about .about-div .main-div article .about-heading {
+    width: 250px;
+    height: 250px;
+  }
+  main #about .about-div .main-div article .about-heading h1 {
+    font-size: 65px;
+    text-align: center;
+  }
+  main #about .about-div .main-div article .decprition {
+    width: 750px;
+    height: 250px;
+    padding: 0px 30px;
+  }
+  main #about .about-div .main-div article .decprition article {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  main #about .about-div .main-div article .decprition article .heading {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 0px 0px 10px;
+  }
+  main #about .about-div .main-div article .decprition article .heading h2 {
+    font-size: 40px;
+    font-style: italic;
+  }
+  main #about .about-div .main-div article .decprition article .heading small {
+    font-size: 20px;
+    font-style: italic;
+    margin: 18px 0px 0px;
+  }
+
+  main #skills .skills-div {
+    width: 100%;
+    height: auto;
+    padding: 60px 0px;
+  }
+  main #skills .skills-div .decprition {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+  }
+  main #skills .skills-div .decprition article {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  main #skills .skills-div .decprition article h1 {
+    font-size: 70px;
+    height: 200px;
+    width: 280px;
+  }
+  main #skills .skills-div .decprition article .article {
+    width: 720px;
+  }
+  main #skills .skills-div .decprition article .article .heading {
+    width: 100%;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  main #skills .skills-div .decprition article .article .heading h1 {
+    font-size: 40px;
+    font-style: italic;
+    width: 105px;
+    height: 40px;
+  }
+  main #skills .skills-div .decprition article .article .heading small {
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  main #skills .skills-div .skills-graps {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 15px;
+    display: inline-flex;
+    flex-direction: row;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels .web-design-part {
+    width: 600px;
+    height: auto;
+    margin: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .heading::after {
+    content: "";
+    width: 270px;
+    height: 4px;
+    margin: auto;
+    display: block;
+    background-color: rgb(74, 158, 255);
+    border-radius: 100px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .heading {
+    width: 306px;
+    margin: auto;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels .web-design-part h1 {
+    font-size: 50px;
+    padding: 10px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design {
+    width: 100%;
+    height: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main
+    div
+    span {
+    width: 380px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main
+    div
+    span {
+    width: 340px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main
+    div
+    span {
+    width: 360px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main
+    div
+    span {
+    width: 240px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main
+    div
+    span {
+    width: 380px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main
+    div
+    span {
+    width: 350px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels .web-development-part {
+    width: 600px;
+    height: auto;
+    margin: 0px auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .heading::after {
+    content: "";
+    width: 410px;
+    height: 4px;
+    margin: auto;
+    display: block;
+    background-color: rgb(74, 158, 255);
+    border-radius: 100px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .heading {
+    width: 450px;
+    margin: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .heading
+    h1 {
+    font-size: 50px;
+    padding: 10px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development {
+    width: 100%;
+    height: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main
+    div
+    span {
+    width: 280px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main
+    div
+    span {
+    width: 250px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main
+    div
+    span {
+    width: 330px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main
+    div
+    span {
+    width: 240px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  main #work .work-div {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+  }
+  main #work .work-div .decprition {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+  main #work .work-div .decprition article {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+  }
+  main #work .work-div .decprition article .heading {
+    width: 280px;
+    height: 225px;
+  }
+  main #work .work-div .decprition article .heading h1 {
+    font-size: 70px;
+  }
+  main #work .work-div .decprition article .decpriton-div {
+    width: 720px;
+  }
+  main #work .work-div .decprition article .decpriton-div .heading-div {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    align-items: baseline;
+  }
+  main #work .work-div .decprition article .decpriton-div .heading-div h2 {
+    font-size: 40px;
+    font-style: italic;
+  }
+  main #work .work-div .decprition article .decpriton-div small {
+    font-size: 20px;
+    font-style: italic;
+    padding: 0px 5px;
+  }
+
+  main #work .work-div .work-menu-card {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+  main #work .work-div .work-menu-card .menu-div {
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+    box-shadow: rgb(218, 218, 218) 0px 0px 8px;
+    border-radius: 10px;
+  }
+  main #work .work-div .work-menu-card .menu-div nav {
+    width: 100%;
+    height: 45px;
+  }
+  main #work .work-div .work-menu-card .menu-div nav ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    place-content: center;
+  }
+  main #work .work-div .work-menu-card .menu-div nav ul li {
+    padding: 10px 25px;
+    font-size: 21px;
+  }
+  main #work .work-div .work-menu-card .menu-div nav ul li:nth-child(1) a {
+    color: rgb(74, 158, 255);
+  }
+  main #work .work-div .work-menu-card .card-div {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+
+  main #work .work-div .work-menu-card .card-div #all #web-design {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: row;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main #work .work-div .work-menu-card .card-div #all #web-development {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main #contact {
+    width: 100%;
+    height: auto;
+    background: gainsboro;
+  }
+  main #contact .contact-div {
+    width: 100%;
+    height: auto;
+    padding: 80px 0px;
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  main #contact .contact-div .heading {
+    padding: 0px 0px 30px;
+    width: 349px;
+  }
+  main #contact .contact-div .heading h1 {
+    font-size: 70px;
+  }
+  main #contact .contact-div .contact-from {
+    width: 900px;
+  }
+  main #contact .contact-div .contact-from form .firstName {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .lastName {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .email {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .massage {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .massage textarea {
+    width: 100%;
+    height: 139px;
+    margin: 10px 0px;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+  }
+  main #contact .contact-div .contact-from form .SubmitButton {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    outline: none;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+    border-radius: 10px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+    background: rgb(94, 94, 94);
+  }
+  footer p {
+    color: white;
+  }
+}
+/* responsive for i-pad */
+@media screen and (max-width: 1100px) {
+  p {
+    font-family: Quicksand, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .lobster-font {
+    font-family: "Lobster Two", cursive;
+    font-size: 70px;
+    color: rgb(74, 158, 255);
+  }
+  .container {
+    width: 1341px;
+    height: auto;
+    margin: auto;
+  }
+  .div-container {
+    width: 700px;
+    height: auto;
+    margin: auto;
+  }
+  input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+
+  header .main-menu-div {
+    width: 100%;
+    height: 65px;
+    box-shadow: black 0px 0px 4px;
+  }
+  header .main-menu-div .header-menu-bar {
+    width: 100%;
+    position: fixed;
+    background: rgb(246, 246, 246);
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    z-index: 99;
+  }
+
+  header .main-menu-div .header-menu-bar .logo h1 {
+    color: rgb(74, 158, 255);
+    margin: 0px 40px;
+    font-size: 40px !important;
+  }
+  header .main-menu-div .header-menu-bar .logo h1 span {
+    font-size: 45px;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar {
+    display: block;
+  }
+
+  header .main-menu-div .header-menu-bar .menu-bar nav ul li a {
+    padding: 10px;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav ul li:nth-child(1) a {
+    color: rgb(74, 158, 255);
+  }
+  header .main-menu-div .header-menu-bar .menu-bar-icon {
+    display: none;
+  }
+
+  header .main-menu-div .header-menu-bar .menu-bar-icon .icon #button {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 100%;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar-icon .icon #button img {
+    width: 30px;
+    height: 30px;
+  }
+
+  main #home .main-div {
+    width: 100%;
+    height: auto;
+    padding: 60px 0px;
+  }
+  main #home .main-div .home-container {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    place-content: center space-between;
+  }
+  main #home .main-div .home-container .first-coullam {
+    width: 150px;
+    height: 370px;
+    z-index: 1;
+    display: inline-block;
+  }
+  main #home .main-div .home-container .first-coullam .socal-icon {
+    width: 60px;
+    position: absolute;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .first-coullam
+    .socal-icon
+    .facebook-icon {
+    padding: 5px;
+    border-radius: 100px;
+    margin: 10px auto;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .first-coullam
+    .socal-icon
+    .tuttier-icon {
+    padding: 5px;
+    border-radius: 100px;
+    margin: 10px auto;
+  }
+  main #home .main-div .home-container .first-coullam .socal-icon .github-icon {
+    padding: 5px;
+    border-radius: 100px;
+    margin: 10px auto;
+  }
+  main #home .main-div .home-container .first-coullam .socal-icon .roull-icon {
+    width: 40px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .first-coullam
+    .socal-icon
+    .roull-icon
+    div {
+    width: 6px;
+    height: 150px;
+    background: rgb(74, 158, 255);
+    border-radius: 25px;
+    margin: 20px auto;
+  }
+
+  main #home .main-div .home-container .secoend-coullam {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+  }
+
+  main
+    #home
+    .main-div
+    .home-container
+    .secoend-coullam
+    .intruducation
+    h1:nth-child(1) {
+    font-size: 65px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .secoend-coullam
+    .intruducation
+    h1:nth-child(2) {
+    font-size: 70px;
+  }
+  main #home .main-div .home-container .secoend-coullam .intruducation h3 {
+    font-size: 40px;
+  }
+  main #home .main-div .home-container .secoend-coullam .intruducation .button {
+    margin: 30px 0px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .secoend-coullam
+    .intruducation
+    .button
+    button {
+    outline: none;
+    border: none;
+    font-size: 21px;
+    padding: 13px 40px;
+    border-radius: 6px;
+    background: linear-gradient(
+      0deg,
+      rgb(100, 100, 100),
+      black,
+      black,
+      rgb(100, 100, 100)
+    );
+    color: white;
+  }
+  main #home .main-div .home-container .third-coullam {
+    width: 100%;
+    padding: 100px 0px 0px;
+    height: auto;
+    display: block;
+  }
+  main #home .main-div .home-container .third-coullam .image {
+    width: 500px;
+    margin: auto;
+  }
+
+  main #about .about-div {
+    padding: 160px 0px;
+  }
+
+  main #about .about-div .main-div article {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  main #about .about-div .main-div article .about-heading {
+    width: 200px;
+    height: auto;
+  }
+  main #about .about-div .main-div article .about-heading h1 {
+    font-size: 65px;
+    text-align: center;
+  }
+  main #about .about-div .main-div article .decprition {
+    width: 500px;
+    height: auto;
+    padding: 0px 30px;
+  }
+  main #about .about-div .main-div article .decprition article {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  main #about .about-div .main-div article .decprition article .heading {
+    display: inline-flex;
+    flex-direction: row;
+    padding: 0px 0px 5px;
+    align-items: baseline;
+  }
+  main #about .about-div .main-div article .decprition article .heading h2 {
+    font-size: 40px;
+    font-style: italic;
+  }
+  main #about .about-div .main-div article .decprition article .heading small {
+    font-size: 19px;
+    font-style: italic;
+  }
+
+  main #skills .skills-div {
+    width: 100%;
+    height: auto;
+    padding: 60px 0px;
+  }
+  main #skills .skills-div .decprition {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+  }
+  main #skills .skills-div .decprition article {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main #skills .skills-div .decprition article h1 {
+    font-size: 70px;
+    width: 250px;
+    height: 320px;
+  }
+  main #skills .skills-div .decprition article .article {
+    width: 450px;
+  }
+  main #skills .skills-div .decprition article .article .heading {
+    width: 100%;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  main #skills .skills-div .decprition article .article .heading h1 {
+    font-size: 40px;
+    font-style: italic;
+    width: 100px;
+    height: 40px;
+  }
+  main #skills .skills-div .decprition article .article .heading small {
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  main #skills .skills-div .skills-graps {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 15px;
+    display: block;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels .web-design-part {
+    width: 600px;
+    height: auto;
+    margin: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .heading::after {
+    content: "";
+    width: 270px;
+    height: 4px;
+    margin: auto;
+    display: block;
+    background-color: rgb(74, 158, 255);
+    border-radius: 100px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .heading {
+    width: 306px;
+    margin: auto;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels .web-design-part h1 {
+    font-size: 50px;
+    padding: 10px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design {
+    width: 100%;
+    height: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main
+    div
+    span {
+    width: 380px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main
+    div
+    span {
+    width: 340px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main
+    div
+    span {
+    width: 360px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main
+    div
+    span {
+    width: 240px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main
+    div
+    span {
+    width: 380px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main
+    div
+    span {
+    width: 350px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels .web-development-part {
+    width: 600px;
+    height: auto;
+    margin: 0px auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .heading::after {
+    content: "";
+    width: 410px;
+    height: 4px;
+    margin: auto;
+    display: block;
+    background-color: rgb(74, 158, 255);
+    border-radius: 100px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .heading {
+    width: 450px;
+    margin: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .heading
+    h1 {
+    font-size: 50px;
+    padding: 10px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development {
+    width: 100%;
+    height: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main
+    div
+    span {
+    width: 280px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main
+    div
+    span {
+    width: 250px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main
+    div
+    span {
+    width: 330px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main
+    div
+    span {
+    width: 240px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main #work .work-div {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+  }
+  main #work .work-div .decprition {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+  main #work .work-div .decprition article {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+  }
+  main #work .work-div .decprition article .heading {
+    width: 200px;
+  }
+  main #work .work-div .decprition article .heading h1 {
+    font-size: 70px;
+  }
+  main #work .work-div .decprition article .decpriton-div {
+    width: 500px;
+  }
+  main #work .work-div .decprition article .decpriton-div .heading-div {
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    align-items: baseline;
+  }
+  main #work .work-div .decprition article .decpriton-div .heading-div h2 {
+    font-size: 40px;
+    font-style: italic;
+  }
+  main #work .work-div .decprition article .decpriton-div small {
+    font-size: 20px;
+    font-style: italic;
+    padding: 0px 5px;
+  }
+  main #work .work-div .work-menu-card {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+  main #work .work-div .work-menu-card .menu-div {
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+    box-shadow: rgb(218, 218, 218) 0px 0px 8px;
+    border-radius: 10px;
+  }
+  main #work .work-div .work-menu-card .menu-div nav {
+    width: 100%;
+    height: 45px;
+  }
+  main #work .work-div .work-menu-card .menu-div nav ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    place-content: center;
+  }
+  main #work .work-div .work-menu-card .menu-div nav ul li {
+    padding: 10px 25px;
+    font-size: 21px;
+  }
+  main #work .work-div .work-menu-card .menu-div nav ul li:nth-child(1) a {
+    color: rgb(74, 158, 255);
+  }
+  main #work .work-div .work-menu-card .card-div {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+  main #work .work-div .work-menu-card .card-div #all #web-design {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main #work .work-div .work-menu-card .card-div #all #web-development {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main #contact {
+    width: 100%;
+    height: auto;
+    background: gainsboro;
+  }
+  main #contact .contact-div {
+    width: 100%;
+    height: auto;
+    padding: 80px 0px;
+    display: inline-flex;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  main #contact .contact-div .heading {
+    padding: 0px 0px 30px;
+    width: 270px;
+  }
+  main #contact .contact-div .heading h1 {
+    font-size: 70px;
+  }
+  main #contact .contact-div .contact-from {
+    width: 430px;
+  }
+
+  main #contact .contact-div .contact-from form .firstName {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .lastName {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .email {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .massage {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .massage textarea {
+    width: 100%;
+    height: 139px;
+    margin: 10px 0px;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+  }
+  main #contact .contact-div .contact-from form .SubmitButton {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    outline: none;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+    border-radius: 10px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+    background: rgb(94, 94, 94);
+  }
+  footer p {
+    color: white;
+  }
+}
+/* responsive for tab  */
+@media screen and (max-width: 800px) {
+  p {
+    font-family: Quicksand, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .lobster-font {
+    font-family: "Lobster Two", cursive;
+    font-size: 55px;
+    color: rgb(74, 158, 255);
+  }
+  .container {
+    width: 1341px;
+    height: auto;
+    margin: auto;
+  }
+  .div-container {
+    width: 450px;
+    height: auto;
+    margin: auto;
+  }
+  input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+
+  header .main-menu-div {
+    width: 100%;
+    height: 65px;
+    box-shadow: black 0px 0px 4px;
+  }
+  header .main-menu-div .header-menu-bar {
+    width: 100%;
+    position: fixed;
+    background: rgb(246, 246, 246);
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+
+  header .main-menu-div .header-menu-bar .logo h1 {
+    color: rgb(74, 158, 255);
+    margin: 0px 40px;
+    font-size: 40px !important;
+  }
+  header .main-menu-div .header-menu-bar .logo h1 span {
+    font-size: 45px;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar {
+    display: none;
+    width: 100%;
+    position: absolute;
+    height: 480px;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav {
+    width: 100%;
+    height: 100vh;
+    margin: 200px 0px;
+    background: white;
+  }
+
+  header .main-menu-div .header-menu-bar .menu-bar nav .menu-close-icon {
+    width: 50px;
+    height: auto;
+    margin: 30px 30px 30px 0px;
+    float: right;
+    display: block;
+  }
+
+  header
+    .main-menu-div
+    .header-menu-bar
+    .menu-bar
+    nav
+    .menu-close-icon
+    .button {
+    width: 46px;
+
+    padding: 5px 5px 2px 5px;
+
+    border: 2px solid black;
+
+    border-radius: 100%;
+  }
+
+  header
+    .main-menu-div
+    .header-menu-bar
+    .menu-bar
+    nav
+    .menu-close-icon
+    .button
+    img {
+    width: 30px;
+  }
+
+  header .main-menu-div .header-menu-bar .menu-bar nav ul {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    padding: 150px;
+    list-style: none;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav ul li {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav ul li a {
+    padding: 10px;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav ul li:nth-child(1) a {
+    color: rgb(74, 158, 255);
+  }
+  header .main-menu-div .header-menu-bar .menu-bar-icon {
+    display: block;
+  }
+
+  header .main-menu-div .header-menu-bar .menu-bar-icon .icon #button {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 100%;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar-icon .icon #button img {
+    width: 30px;
+    height: 30px;
+  }
+
+  main #home .main-div {
+    width: 100%;
+    height: auto;
+    padding: 60px 0px;
+  }
+  main #home .main-div .home-container {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    place-content: center space-between;
+  }
+  main #home .main-div .home-container .first-coullam {
+    width: 110px;
+    height: 370px;
+  }
+  main #home .main-div .home-container .first-coullam .socal-icon {
+    width: 60px;
+    padding: 70px 0px 0px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .first-coullam
+    .socal-icon
+    .facebook-icon {
+    padding: 5px;
+    border-radius: 100px;
+    margin: 10px auto;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .first-coullam
+    .socal-icon
+    .tuttier-icon {
+    padding: 5px;
+    border-radius: 100px;
+    margin: 10px auto;
+  }
+  main #home .main-div .home-container .first-coullam .socal-icon .github-icon {
+    padding: 5px;
+    border-radius: 100px;
+    margin: 10px auto;
+  }
+  main #home .main-div .home-container .first-coullam .socal-icon .roull-icon {
+    width: 40px;
+    margin: 20px auto;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .first-coullam
+    .socal-icon
+    .roull-icon
+    div {
+    width: 6px;
+    height: 78px;
+    background: rgb(74, 158, 255);
+    border-radius: 25px;
+    margin: 20px auto;
+  }
+
+  main #home .main-div .home-container .secoend-coullam {
+    width: 330px;
+    height: auto;
+  }
+
+  main
+    #home
+    .main-div
+    .home-container
+    .secoend-coullam
+    .intruducation
+    h1:nth-child(1) {
+    font-size: 45px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .secoend-coullam
+    .intruducation
+    h1:nth-child(2) {
+    font-size: 55px;
+  }
+  main #home .main-div .home-container .secoend-coullam .intruducation h3 {
+    font-size: 25px;
+  }
+  main #home .main-div .home-container .secoend-coullam .intruducation .button {
+    margin: 30px 0px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .secoend-coullam
+    .intruducation
+    .button
+    button {
+    outline: none;
+    border: none;
+    font-size: 21px;
+    padding: 13px 40px;
+    border-radius: 6px;
+    background: linear-gradient(
+      0deg,
+      rgb(100, 100, 100),
+      black,
+      black,
+      rgb(100, 100, 100)
+    );
+    color: white;
+  }
+  main #home .main-div .home-container .third-coullam {
+    padding: 200px 0px 0px;
+  }
+
+  main #home .main-div .home-container .third-coullam .image img {
+    width: 450px;
+    height: 500px;
+  }
+
+  main #about .about-div {
+    padding: 160px 0px;
+  }
+
+  main #about .about-div .main-div article {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main #about .about-div .main-div article .about-heading {
+    width: 100%;
+    height: auto;
+    padding: 25px 0px;
+  }
+  main #about .about-div .main-div article .about-heading h1 {
+    font-size: 65px;
+    text-align: center;
+  }
+  main #about .about-div .main-div article .decprition {
+    width: 450px;
+    height: auto;
+    padding: 0px 30px;
+  }
+  main #about .about-div .main-div article .decprition article {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  main #about .about-div .main-div article .decprition article .heading {
+    display: block;
+    flex-direction: row;
+    padding: 0px 0px 20px;
+  }
+  main #about .about-div .main-div article .decprition article .heading h2 {
+    font-size: 40px;
+    font-style: italic;
+  }
+  main #about .about-div .main-div article .decprition article .heading small {
+    font-size: 20px;
+    font-style: italic;
+    margin: 18px 0px 0px;
+  }
+
+  main #skills .skills-div {
+    width: 100%;
+    height: auto;
+    padding: 60px 0px;
+  }
+  main #skills .skills-div .decprition {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+  }
+  main #skills .skills-div .decprition article {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  main #skills .skills-div .decprition article h1 {
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+    height: auto;
+  }
+  main #skills .skills-div .decprition article .article {
+    width: 450px;
+  }
+  main #skills .skills-div .decprition article .article .heading {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    display: block;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  main #skills .skills-div .decprition article .article .heading h1 {
+    font-size: 40px;
+    font-style: italic;
+    width: 105px;
+    height: 40px;
+  }
+  mar {
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  main #skills .skills-div .skills-graps {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 15px;
+    display: block;
+    flex-direction: row;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels .web-design-part {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .heading::after {
+    content: "";
+    width: 270px;
+    height: 4px;
+    margin: auto;
+    display: block;
+    background-color: rgb(74, 158, 255);
+    border-radius: 100px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .heading {
+    width: 306px;
+    margin: auto;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels .web-design-part h1 {
+    font-size: 50px;
+    padding: 10px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design {
+    width: 100%;
+    height: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main
+    div
+    span {
+    width: 273px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main
+    div
+    span {
+    width: 200px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main
+    div
+    span {
+    width: 360px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main
+    div
+    span {
+    width: 240px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main
+    div
+    span {
+    width: 380px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main
+    div
+    span {
+    width: 350px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels .web-development-part {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .heading::after {
+    content: "";
+    width: 410px;
+    height: 4px;
+    margin: auto;
+    display: block;
+    background-color: rgb(74, 158, 255);
+    border-radius: 100px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .heading {
+    width: 450px;
+    margin: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .heading
+    h1 {
+    font-size: 50px;
+    padding: 10px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development {
+    width: 100%;
+    height: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main
+    div
+    span {
+    width: 280px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main
+    div
+    span {
+    width: 250px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main
+    div
+    span {
+    width: 330px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main
+    div
+    span {
+    width: 240px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main #work .work-div {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+  }
+  main #work .work-div .decprition {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+  main #work .work-div .decprition article {
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+  }
+  main #work .work-div .decprition article .heading {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  main #work .work-div .decprition article .heading h1 {
+    font-size: 70px;
+  }
+  main #work .work-div .decprition article .decpriton-div {
+    width: 450px;
+    padding: 20px 0px 0px;
+  }
+  main #work .work-div .decprition article .decpriton-div .heading-div {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    display: block;
+    align-items: baseline;
+  }
+  main #work .work-div .decprition article .decpriton-div .heading-div h2 {
+    font-size: 40px;
+    font-style: italic;
+  }
+  main #work .work-div .decprition article .decpriton-div small {
+    font-size: 20px;
+    font-style: italic;
+    padding: 0px 5px;
+  }
+  main #work .work-div .work-menu-card {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+  main #work .work-div .work-menu-card .menu-div {
+    width: 100%;
+    height: auto;
+    padding: 15px 0px;
+    box-shadow: rgb(218, 218, 218) 0px 0px 8px;
+    border-radius: 10px;
+  }
+  main #work .work-div .work-menu-card .menu-div nav {
+    width: 100%;
+    height: 45px;
+  }
+  main #work .work-div .work-menu-card .menu-div nav ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    place-content: center;
+  }
+  main #work .work-div .work-menu-card .menu-div nav ul li {
+    padding: 10px 25px;
+    font-size: 20px;
+  }
+  main #work .work-div .work-menu-card .menu-div nav ul li:nth-child(1) a {
+    color: rgb(74, 158, 255);
+  }
+  main #work .work-div .work-menu-card .card-div {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+  main #work .work-div .work-menu-card .card-div #all #web-design {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main #work .work-div .work-menu-card .card-div #all #web-development {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main #contact {
+    width: 100%;
+    height: auto;
+    background: gainsboro;
+  }
+  main #contact .contact-div {
+    width: 100%;
+    height: auto;
+    padding: 80px 0px;
+    display: block;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  main #contact .contact-div .heading {
+    padding: 0px 0px 30px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  main #contact .contact-div .heading h1 {
+    font-size: 70px;
+  }
+  main #contact .contact-div .contact-from {
+    width: 100%;
+  }
+  main #contact .contact-div .contact-from form .firstName {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .lastName {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .email {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .massage {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .massage textarea {
+    width: 100%;
+    height: 139px;
+    margin: 10px 0px;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+  }
+  main #contact .contact-div .contact-from form .SubmitButton {
+    padding: 10px 30px;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    border: none;
+    outline: none;
+    background: linear-gradient(
+      0deg,
+      rgb(100, 100, 100),
+      black,
+      black,
+      rgb(100, 100, 100)
+    );
+    border-radius: 10px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+    background: rgb(94, 94, 94);
+  }
+  footer p {
+    color: white;
+  }
+}
+
+/* responsive for movile  */
+@media screen and (max-width: 550px) {
+  p {
+    font-family: Quicksand, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: black;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .lobster-font {
+    font-family: "Lobster Two", cursive;
+    font-size: 35px;
+    color: rgb(74, 158, 255);
+  }
+  .container {
+    width: 1341px;
+    height: auto;
+    margin: auto;
+  }
+  .div-container {
+    width: 320px;
+    height: auto;
+    margin: auto;
+  }
+  input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+
+  header .main-menu-div {
+    width: 100%;
+    height: 65px;
+    box-shadow: black 0px 0px 4px;
+  }
+  header .main-menu-div .header-menu-bar {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    background: rgb(246, 246, 246);
+    display: inline-flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0px;
+    align-items: center;
+    align-content: center;
+  }
+  header .main-menu-div .header-menu-bar .logo {
+    width: 100px;
+  }
+  header .main-menu-div .header-menu-bar .logo h1 {
+    color: rgb(74, 158, 255);
+    margin: 0px 40px;
+    font-size: 40px !important;
+  }
+  header .main-menu-div .header-menu-bar .logo h1 span {
+    font-size: 45px;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar {
+    width: 100%;
+    position: absolute;
+    height: 480px;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav {
+    width: 100%;
+    height: 550px;
+    margin: 207px 0px;
+    background: white;
+  }
+
+  header .main-menu-div .header-menu-bar .menu-bar nav .menu-close-icon {
+    width: 50px;
+    height: auto;
+    margin: 30px 30px 30px 0px;
+    float: right;
+    display: block;
+  }
+
+  header
+    .main-menu-div
+    .header-menu-bar
+    .menu-bar
+    nav
+    .menu-close-icon
+    .button {
+    width: 46px;
+
+    padding: 5px 5px 2px 5px;
+
+    border: 2px solid black;
+
+    border-radius: 100%;
+  }
+
+  header
+    .main-menu-div
+    .header-menu-bar
+    .menu-bar
+    nav
+    .menu-close-icon
+    .button
+    img {
+    width: 30px;
+  }
+
+  header .main-menu-div .header-menu-bar .menu-bar nav ul {
+    width: 100%;
+    height: 40px;
+    display: block;
+    padding: 150px 0px;
+    flex-direction: row;
+    place-content: center space-between;
+    align-items: center;
+    list-style: none;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav ul li {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav ul li a {
+    padding: 10px;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar nav ul li:nth-child(1) a {
+    color: rgb(74, 158, 255);
+  }
+  header .main-menu-div .header-menu-bar .menu-bar-icon {
+    display: block;
+  }
+
+  header .main-menu-div .header-menu-bar .menu-bar-icon .icon #button {
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 100%;
+  }
+  header .main-menu-div .header-menu-bar .menu-bar-icon .icon #button img {
+    width: 30px;
+    height: 30px;
+  }
+
+  main #home .main-div {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px 0px;
+  }
+  main #home .main-div .home-container {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    place-content: center space-between;
+  }
+  main #home .main-div .home-container .first-coullam {
+    width: 80px;
+    height: 350px;
+    position: relative;
+    display: inline-block;
+  }
+  main #home .main-div .home-container .first-coullam .socal-icon {
+    width: 60px;
+    padding: 0px;
+    position: absolute;
+    margin-top: 97px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .first-coullam
+    .socal-icon
+    .facebook-icon {
+    padding: 5px;
+    border-radius: 100px;
+    margin: 0px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .first-coullam
+    .socal-icon
+    .tuttier-icon {
+    padding: 5px;
+    border-radius: 100px;
+    margin: 0px;
+  }
+  main #home .main-div .home-container .first-coullam .socal-icon .github-icon {
+    padding: 5px;
+    border-radius: 100px;
+    margin: 0px;
+  }
+  main #home .main-div .home-container .first-coullam .socal-icon .roull-icon {
+    width: 40px;
+    margin: 20px auto;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .first-coullam
+    .socal-icon
+    .roull-icon
+    div {
+    width: 6px;
+    height: 100px;
+    background: rgb(74, 158, 255);
+    border-radius: 25px;
+    margin: 20px auto;
+  }
+  main #home .main-div .home-container .secoend-coullam {
+    width: 210px;
+    display: inline-block;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .secoend-coullam
+    .intruducation
+    h1:nth-child(1) {
+    font-size: 30px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .secoend-coullam
+    .intruducation
+    h1:nth-child(2) {
+    font-size: 35px;
+  }
+  main #home .main-div .home-container .secoend-coullam .intruducation h3 {
+    font-size: 18px;
+  }
+  main #home .main-div .home-container .secoend-coullam .intruducation .button {
+    margin: 30px 0px;
+  }
+  main
+    #home
+    .main-div
+    .home-container
+    .secoend-coullam
+    .intruducation
+    .button
+    button {
+    outline: none;
+    border: none;
+    font-size: 21px;
+    padding: 13px 40px;
+    border-radius: 6px;
+    background: linear-gradient(
+      0deg,
+      rgb(100, 100, 100),
+      black,
+      black,
+      rgb(100, 100, 100)
+    );
+    color: white;
+  }
+  main #home .main-div .home-container .third-coullam {
+    width: 100%;
+    height: auto;
+    padding: 150px 0px 0px;
+  }
+  main #home .main-div .home-container .third-coullam .image {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+  }
+  main #home .main-div .home-container .third-coullam .image img {
+    width: 100%;
+    height: auto;
+  }
+  main #about .about-div {
+    padding: 100px 0px;
+  }
+  main #about .about-div .main-div article {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  main #about .about-div .main-div article .about-heading {
+    width: 100%;
+    height: auto;
+  }
+  main #about .about-div .main-div article .about-heading h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  main #about .about-div .main-div article .decprition {
+    width: 100%;
+    height: auto;
+    padding: 0px 30px;
+  }
+  main #about .about-div .main-div article .decprition article {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  main #about .about-div .main-div article .decprition article .heading {
+    display: block;
+    flex-direction: row;
+    padding: 0px 0px 20px;
+  }
+  main #about .about-div .main-div article .decprition article .heading h2 {
+    font-size: 25px;
+    font-style: italic;
+  }
+  main #about .about-div .main-div article .decprition article .heading small {
+    font-size: 13px;
+    font-style: italic;
+    margin: 18px 0px 0px;
+  }
+  main #skills .skills-div {
+    width: 100%;
+    height: auto;
+    padding: 60px 0px;
+  }
+  main #skills .skills-div .decprition {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+  main #skills .skills-div .decprition article {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  main #skills .skills-div .decprition article h1 {
+    width: 100%;
+    height: auto;
+    padding: 20px 0px;
+    font-size: 30px;
+  }
+  main #skills .skills-div .decprition article .article {
+    width: 100%;
+  }
+  main #skills .skills-div .decprition article .article .heading {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  main #skills .skills-div .decprition article .article .heading h1 {
+    font-size: 30px;
+    padding: 0px;
+    font-style: italic;
+    text-align: left;
+    height: auto;
+    width: 100%;
+  }
+  main #skills .skills-div .decprition article .article .heading small {
+    font-size: 14px;
+    font-style: italic;
+  }
+  main #skills .skills-div .skills-graps {
+    width: 100%;
+    height: auto;
+    padding: 50px 0px;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 15px;
+    display: block;
+    flex-direction: row;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels .web-design-part {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .heading::after {
+    content: "";
+    height: 4px;
+    margin: auto;
+    display: block;
+    background-color: rgb(74, 158, 255);
+    border-radius: 100px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .heading {
+    width: 100%;
+    margin: auto;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels .web-design-part h1 {
+    font-size: 30px;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design {
+    width: 100%;
+    height: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .html-part
+    .main
+    div
+    span {
+    width: 130px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .css-part
+    .main
+    div
+    span {
+    width: 150px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .bootstrap-part
+    .main
+    div
+    span {
+    width: 130px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .tailwiendcss-part
+    .main
+    div
+    span {
+    width: 240px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .javascript-part
+    .main
+    div
+    span {
+    width: 160px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-design-part
+    .design
+    .react-part
+    .main
+    div
+    span {
+    width: 130px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main #skills .skills-div .skills-graps .skills-lavels .web-development-part {
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .heading::after {
+    content: "";
+    width: 270px;
+    height: 4px;
+    margin: auto;
+    display: block;
+    background-color: rgb(74, 158, 255);
+    border-radius: 100px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .heading {
+    width: 100%;
+    margin: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .heading
+    h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development {
+    width: 100%;
+    height: auto;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .python-part
+    .main
+    div
+    span {
+    width: 130px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .danjo-part
+    .main
+    div
+    span {
+    width: 250px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .java-part
+    .main
+    div
+    span {
+    width: 330px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part {
+    width: 100%;
+    height: auto;
+    padding: 15px 20px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main {
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main
+    h1 {
+    padding: 0px 0px 10px;
+    font-size: 22px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main
+    div {
+    width: 100%;
+    height: 13px;
+    background: gray;
+    border-radius: 10px;
+  }
+  main
+    #skills
+    .skills-div
+    .skills-graps
+    .skills-lavels
+    .web-development-part
+    .development
+    .squl-part
+    .main
+    div
+    span {
+    width: 240px;
+    height: 13px;
+    display: block;
+    background: rgb(3, 179, 255);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  main #work {
+  }
+  main #work .work-div {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+  main #work .work-div .decprition {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 30px;
+  }
+  main #work .work-div .decprition article {
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+  }
+  main #work .work-div .decprition article .heading {
+    width: 100%;
+    padding: 0px;
+  }
+  main #work .work-div .decprition article .heading h1 {
+    font-size: 30px;
+  }
+  main #work .work-div .decprition article .decpriton-div {
+    width: 100%;
+    padding: 30px;
+  }
+  main #work .work-div .decprition article .decpriton-div .heading-div {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: baseline;
+  }
+  main #work .work-div .decprition article .decpriton-div .heading-div h2 {
+    font-size: 40px;
+    font-style: italic;
+  }
+  main #work .work-div .decprition article .decpriton-div small {
+    font-size: 20px;
+    font-style: italic;
+    padding: 0px 5px;
+  }
+  main #work .work-div .decprition article .decpriton-div p {
+  }
+  main #work .work-div .work-menu-card {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+  main #work .work-div .work-menu-card .menu-div {
+    width: 95%;
+    height: auto;
+    margin: auto;
+    padding: 15px 0px;
+    box-shadow: rgb(218, 218, 218) 0px 0px 8px;
+    border-radius: 10px;
+  }
+  main #work .work-div .work-menu-card .menu-div nav {
+    width: 100%;
+    height: 45px;
+  }
+  main #work .work-div .work-menu-card .menu-div nav ul {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    place-content: center;
+  }
+  main #work .work-div .work-menu-card .menu-div nav ul li {
+    padding: 10px 25px;
+    font-size: 17px;
+  }
+  main #work .work-div .work-menu-card .menu-div nav ul li:nth-child(1) a {
+    color: rgb(74, 158, 255);
+  }
+  main #work .work-div .work-menu-card .card-div {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+  main #work .work-div .work-menu-card .card-div #all {
+  }
+  main #work .work-div .work-menu-card .card-div #all #web-design {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-one
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-design
+    .design-template-two
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main #work .work-div .work-menu-card .card-div #all #web-development {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-direction: row;
+    align-items: center;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-one
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two {
+    height: auto;
+    padding: 30px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border: 1px solid rgb(186, 186, 186);
+    border-radius: 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .heading {
+    padding: 0px 0px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .heading
+    h1 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .heading
+    .icon {
+    width: 105px;
+    height: auto;
+    margin: auto;
+    padding: 10px 20px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .body {
+    padding: 10px 0px 40px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .button {
+    padding: 10px 0px;
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .button
+    .main {
+    width: 105px;
+    height: auto;
+    padding: 10px 30px;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+  }
+  main
+    #work
+    .work-div
+    .work-menu-card
+    .card-div
+    #all
+    #web-development
+    .development-template-two
+    .main-div
+    .button
+    .main
+    a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+  }
+  main #contact {
+    width: 100%;
+    height: auto;
+    background: gainsboro;
+  }
+  main #contact .contact-div {
+    width: 100%;
+    height: auto;
+    padding: 80px 30px;
+    display: block;
+    align-items: flex-start;
+    flex-direction: row;
+  }
+  main #contact .contact-div .heading {
+    padding: 0px 0px 30px;
+    width: 100%;
+  }
+  main #contact .contact-div .heading h1 {
+    font-size: 30px;
+  }
+  main #contact .contact-div .contact-from {
+    width: 100%;
+  }
+  main #contact .contact-div .contact-from form .firstName {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .lastName {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .email {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .massage {
+    display: block;
+    font-size: 20px;
+  }
+  main #contact .contact-div .contact-from form .massage textarea {
+    width: 100%;
+    height: 139px;
+    margin: 10px 0px;
+    padding: 15px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+  }
+  main #contact .contact-div .contact-from form .SubmitButton {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    outline: none;
+    background: linear-gradient(
+      360deg,
+      rgb(90, 90, 90),
+      rgb(72, 72, 72),
+      rgb(84, 84, 84),
+      rgb(59, 59, 59)
+    );
+    border-radius: 10px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 50px;
+    text-align: center;
+    background: rgb(94, 94, 94);
+  }
+  footer p {
+    color: white;
+  }
+}
